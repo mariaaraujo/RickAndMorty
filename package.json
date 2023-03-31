@@ -12,11 +12,19 @@
     "@types/node": "18.15.10",
     "@types/react": "18.0.30",
     "@types/react-dom": "18.0.11",
+    "bootstrap": "^5.2.3",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-paginate": "^8.1.4",
+    "react-router-dom": "^6.9.0",
+    "reactstrap": "^9.1.6",
+    "styled-components": "^5.3.9",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
   }
 }
