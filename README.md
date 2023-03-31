@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esta aplicação foi desenvolvida utilizando Next.js e Typescript, nela foi feito o consumo da API de Rick & Morty
 
-## Getting Started
+## Iniciando visualização
 
 Para iniciar a aplicação, com o node intalado utilize o comando:
 
