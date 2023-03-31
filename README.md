@@ -20,4 +20,4 @@ yarn dev
 
 No navegador acesse: [http://localhost:3000](http://localhost:3000) para visualizar a aplicação rodando
 
-Para visualizar uma demo da aplicação [Clique aqui](https://google.com.br)
+Para visualizar o deploy da aplicação [Clique aqui](https://rick-and-morty-sandy-omega.vercel.app/)
