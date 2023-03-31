@@ -7,10 +7,9 @@ Para iniciar a aplicação, com o node intalado utilize o comando:
 ```bash
 npm install
 ```
-
-Logo depois
+ou
 ```bash
-npm install -g yarn
+yarn
 ```
 
 E rode a aplicação em dev com:
@@ -20,3 +19,5 @@ yarn dev
 ```
 
 No navegador acesse: [http://localhost:3000](http://localhost:3000) para visualizar a aplicação rodando
+
+Para visualizar uma demo da aplicação [Clique aqui](https://google.com.br)

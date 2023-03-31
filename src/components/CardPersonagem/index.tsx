@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { Character } from './CardType';
 import { Container } from './style';
+import NotFound from '@/assets/not-found.png'
 
 const isFavorite = (character: Character, favoriteCharacters: Character[]) =>
   favoriteCharacters.some((favChar) => favChar.id === character.id)
@@ -81,11 +82,11 @@ const CardPersonagem = ({resultados}) => {
         )
       }) : 
         <div style={{color: '#fff', margin: '2rem'}}>
-          <p>Nenhum personagem encontrado! :(</p>
+          <p style={{color: '#1e1c1c', fontSize: '1.6rem', fontWeight: 600}}>Nenhum personagem encontrado! :(</p>
           <Image 
-            width={250}
-            height={250}
-            src="/not-found.png"
+            width={500}
+            height={500}
+            src={NotFound}
             alt="Personagem não encontrado"
           />
         </div>
